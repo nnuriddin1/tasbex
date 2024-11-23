@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #f7f8fc, #dce4f7);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasbex {
+  max-width: 400px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.t-top {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f0f4fc;
+  color: #4a90e2;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #4a90e2;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.t-body {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+.t-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-count {
+  padding: 20px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(to bottom right, #4a90e2, #6aa4f8);
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-count:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.btn-count:active {
+  transform: scale(0.95);
+}
